@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/DFF.xst" -ofn "E:/Proj/intro1/DFF.syr" 
+netgen -intstyle ise -ar Structure -tm DFF -w -dir netgen/synthesis -ofmt vhdl -sim DFF.ngc DFF_synthesis.vhd 

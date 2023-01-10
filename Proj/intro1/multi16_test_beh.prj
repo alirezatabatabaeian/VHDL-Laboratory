@@ -1,0 +1,3 @@
+vhdl work "multi2to1.vhd"
+vhdl work "multi16to1by2to1.vhd"
+vhdl work "multi16_test.vhd"

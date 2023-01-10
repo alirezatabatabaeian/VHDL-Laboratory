@@ -1,0 +1,2 @@
+vhdl isim_temp "Dflipflop.vhd"
+vhdl isim_temp "DflipflopNew_test.vhd"

@@ -1,0 +1,2 @@
+vhdl work "clk_div_x.vhd"
+vhdl work "clk_div_x1_test.vhd"

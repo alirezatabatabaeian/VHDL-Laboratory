@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="intro1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="AND1ns_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AND1ns_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="AND_DELAY1ns.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="AND_DELAY1ns.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="AND_DELAY1ns.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="AND_DELAY1ns.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AND_DELAY1ns.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="AND_DELAY1ns.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="AND_DELAY1ns.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="AND_DELAY1ns.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="AND_DELAY1ns_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="AND_DELAY1ns_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="DFF.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="DFF.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="DFF.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="DFF.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DFF.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="DFF.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="DFF.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="DFF.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DFF_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DFF_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DFF_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="DFF_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Dflipflop.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Dflipflop.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Dflipflop.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Dflipflop.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Dflipflop.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Dflipflop.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Dflipflop.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Dflipflop.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DflipflopNew_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DflipflopNew_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Dflipflop_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Dflipflop_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FA_DELAY.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FA_DELAY.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FA_DELAY.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FA_DELAY.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FA_DELAY.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FA_DELAY.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FA_DELAY.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FA_DELAY.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FA_DELAY_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FA_DELAY_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FAns_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FAns_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FOURADDERCLA.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FOURADDERCLA.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FOURADDERCLA.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FOURADDERCLA.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FOURADDERCLA.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FOURADDERCLA.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FOURADDERCLA.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FOURADDERCLA.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FOURADDERCLA_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FOURADDERCLA_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FOURADDERCLA_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FOURADDERCLA_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FOUR_BIT_ADDER_DELAY.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FOUR_BIT_ADDER_DELAY.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FOUR_BIT_ADDER_DELAY.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FOUR_BIT_ADDER_DELAY.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FOUR_BIT_ADDER_DELAY.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FOUR_BIT_ADDER_DELAY.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FOUR_BIT_ADDER_DELAY.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FOUR_BIT_ADDER_DELAY.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FOUR_BIT_ADDER_DELAY_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FOUR_BIT_ADDER_DELAY_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="HA_DELAY.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="HA_DELAY.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="HA_DELAY.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="HA_DELAY.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HA_DELAY.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="HA_DELAY.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="HA_DELAY.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="HA_DELAY.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HA_DELAY_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="HA_DELAY_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="HA_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HA_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="HAns_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="HAns_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="NOT3ms_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="NOT3ms_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="NOT_DELAY3ns.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="NOT_DELAY3ns.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="NOT_DELAY3ns.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="NOT_DELAY3ns.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="NOT_DELAY3ns.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="NOT_DELAY3ns.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="NOT_DELAY3ns.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="NOT_DELAY3ns.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="NOT_DELAY3ns_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="NOT_DELAY3ns_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="OR2ns_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OR2ns_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="OR_DELAY2ns.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="OR_DELAY2ns.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="OR_DELAY2ns.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="OR_DELAY2ns.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OR_DELAY2ns.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="OR_DELAY2ns.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="OR_DELAY2ns.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="OR_DELAY2ns.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OR_DELAY2ns_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="OR_DELAY2ns_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RAM.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RAM.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="RAM.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="RAM.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RAM.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="RAM.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RAM.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RAM.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="RAM_test0_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RAM_test0_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RAM_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RAM_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="XOR_DELAY.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="XOR_DELAY.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="XOR_DELAY.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="XOR_DELAY.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="XOR_DELAY.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="XOR_DELAY.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="XOR_DELAY.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="XOR_DELAY.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="XOR_DELAY_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="XOR_DELAY_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="XORns_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="XORns_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="add_sub_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="add_sub_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="choice.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="choice.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="choice.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="choice.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="choice.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="choice.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="choice.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="choice.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="choice.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="choice_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="choice_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="clk.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="clk.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="clk.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="clk.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="clk.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="clk.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk2_test_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk2_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk3_test_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk3_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk4_test_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk4_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div1_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_div2_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div2_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_div3_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div3_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_div4_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div4_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="clk_div_5711.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="clk_div_5711.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="clk_div_5711.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="clk_div_5711.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_5711.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk_div_5711.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="clk_div_5711.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="clk_div_5711.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_5711_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_div_5711_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="clk_div_5711_test_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_5711_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clk_div_5711_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_mod.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk_div_mod.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clk_div_mod.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_div_mod_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="clk_div_x.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="clk_div_x.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_x.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clk_div_x.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="clk_div_x.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="clk_div_x.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_x1_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_div_x2_test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_div_x_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_x_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_div_x_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clk_div_x_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_test_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clk_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clk_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="clock.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="clock.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="clock.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="clock.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="clock.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="clock.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="clock.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="clock_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="comparator.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="comparator.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="comparator.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="comparator.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparator.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="comparator.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="comparator.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comparator_envsettings.html"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="comparator_if.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="comparator_if.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="comparator_if.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="comparator_if.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator_if.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparator_if.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="comparator_if.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="comparator_if.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparator_if_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator_if_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator_if_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comparator_if_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="comparator_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="comparator_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="comparator_test_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparator_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="comparator_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="count09and90.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="count09and90.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="count09and90.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="count09and90.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="count09and90.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="count09and90.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="count09and90.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="count09and90.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="count09and90_test_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="count09and90_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="count09and90_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="count09and90_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter1_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter1_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter2_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter2_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter3_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter3_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="counter3_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter3_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter4_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter4_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter5_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter5_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter6_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter7_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter7_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="counter7_test_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter8_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter8_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter9_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter9_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dec2_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec2_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="dec2to4bymulti4to1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="dec2to4bymulti4to1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="dec2to4bymulti4to1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="dec2to4bymulti4to1.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec2to4bymulti4to1.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="dec2to4bymulti4to1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="dec2to4bymulti4to1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="dec2to4bymulti4to1.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="dec2to4bymulti4to1_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="dec2to4bymulti4to1_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec2to4bymulti4to1_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dec2to4bymulti4to1_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec3_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dec3_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="dec3_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec3_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dec3e_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec3e_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dec4_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec4_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="dec4to16.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="dec4to16.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="dec4to16.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="dec4to16.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec4to16.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="dec4to16.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="dec4to16.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="dec4to16.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="dec4to16_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="dec4to16_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec4to16_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dec4to16_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="dec4to2.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="dec4to2.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="dec4to2.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="dec4to2.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec4to2.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="dec4to2.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="dec4to2.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="dec4to2.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dec4to2_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dec4to2_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decby_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decby_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="detect1100.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="detect1100.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="detect1100.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="detect1100.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detect1100.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="detect1100.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="detect1100.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="detect1100.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="detect1100_test0_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detect1100_test0_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="detect1100_test1_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detect1100_test1_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="detect1100_test2_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detect1100_test2_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="detect1100_test3_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detect1100_test3_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="detect1100_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="detect1100_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four1_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four1_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="four_add_sub.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="four_add_sub.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="four_add_sub.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="four_add_sub.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_add_sub.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="four_add_sub.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="four_add_sub.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="four_add_sub.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_add_sub_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="four_add_sub_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="four_bit_adder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="four_bit_adder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="four_bit_adder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="four_bit_adder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_adder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="four_bit_adder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="four_bit_adder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="four_bit_adder.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_adder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="four_bit_adder_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_adder_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="four_bit_adder_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fouraddns_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fouraddns_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fourcla_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fourcla_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="fulladder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="fulladder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="fulladder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="fulladder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="fulladder.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="fulladder.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="fulladder.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="fulladder.syr"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="fulladder.vhi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="fulladder.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fulladder_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="fulladder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="halfadder.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="halfadder.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="halfadder.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="halfadder.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="halfadder.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="halfadder.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="halfadder.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="halfadder.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="halfadder_envsettings.html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="halfadder_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="halfadder_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="halfadder_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="halfadder_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="halfadder_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mult_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mult_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi16_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multi16_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="multi16_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi16_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multi16to1by2to1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multi16to1by2to1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="multi16to1by2to1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="multi16to1by2to1.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi16to1by2to1.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="multi16to1by2to1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multi16to1by2to1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multi16to1by2to1.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi16to1by2to1_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multi16to1by2to1_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multi21_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi21_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multi2to1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multi2to1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="multi2to1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="multi2to1.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi2to1.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="multi2to1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multi2to1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multi2to1.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi2to1_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multi2to1_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multi4to1by2to1byselectwhen.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multi4to1by2to1byselectwhen.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="multi4to1by2to1byselectwhen.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="multi4to1by2to1byselectwhen.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi4to1by2to1byselectwhen.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="multi4to1by2to1byselectwhen.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multi4to1by2to1byselectwhen.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multi4to1by2to1byselectwhen.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multi4to1by2to1byselectwhen_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi4to1by2to1byselectwhen_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi4to1by2to1byselectwhen_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multi4to1by2to1byselectwhen_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multi_plexer.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multi_plexer.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="multi_plexer.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="multi_plexer.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi_plexer.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="multi_plexer.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multi_plexer.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multi_plexer.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multi_plexer_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multi_plexer_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi_plexer_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multi_plexer_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="multi_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multi_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/AND_DELAY1ns_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/AND_DELAY1ns_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/DFF_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/DFF_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/Dflipflop_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/Dflipflop_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/FA_DELAY_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/FA_DELAY_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/FOURADDERCLA_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/FOURADDERCLA_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/FOUR_BIT_ADDER_DELAY_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/FOUR_BIT_ADDER_DELAY_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/HA_DELAY_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/HA_DELAY_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/NOT_DELAY3ns_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/NOT_DELAY3ns_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/OR_DELAY2ns_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/OR_DELAY2ns_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/RAM_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/RAM_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/XOR_DELAY_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/XOR_DELAY_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/clk_div_5711_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/clk_div_5711_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/clk_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/clk_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/clock_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/clock_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/comparator_if_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/comparator_if_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/comparator_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/comparator_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/count09and90_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/count09and90_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/dec2to4bymulti4to1_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/dec2to4bymulti4to1_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/dec4to16_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/dec4to16_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/dec4to2_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/dec4to2_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/detect1100_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/detect1100_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/four_add_sub_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/four_add_sub_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/four_bit_adder_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/four_bit_adder_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/fulladder_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/fulladder_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/halfadder_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/halfadder_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/multi16to1by2to1_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/multi16to1by2to1_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/multi2to1_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/multi2to1_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/multi4to1by2to1byselectwhen_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/multi4to1by2to1byselectwhen_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/multi_plexer_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/multi_plexer_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/priorityendcoder4to2_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/priorityendcoder4to2_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/seg7_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/seg7_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/seg7case_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/seg7case_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/seqdetect1100_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/seqdetect1100_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/test1_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/test1_synthesis.vhd"/>
+    <file xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/upcounterdff_synthesis.nlf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/upcounterdff_synthesis.vhd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="priorityencoder4to2_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="priorityencoder4to2_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="priorityendcoder4to2.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="priorityendcoder4to2.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="priorityendcoder4to2.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="priorityendcoder4to2.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="priorityendcoder4to2.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="priorityendcoder4to2.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="priorityendcoder4to2.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="priorityendcoder4to2.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="priorityendcoder4to2_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="priorityendcoder4to2_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="seg7.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="seg7.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="seg7.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="seg7.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seg7.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="seg7.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="seg7.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="seg7.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seg7_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="seg7_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="seg7case.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="seg7case.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="seg7case.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="seg7case.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seg7case.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="seg7case.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="seg7case.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="seg7case.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="seg7case_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seg7case_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seg7case_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="seg7case_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="seg_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seg_test_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="seqdetect1100.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="seqdetect1100.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="seqdetect1100.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="seqdetect1100.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seqdetect1100.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="seqdetect1100.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="seqdetect1100.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="seqdetect1100.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="seqdetect1100_test0_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seqdetect1100_test0_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="seqdetect1100_test1_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seqdetect1100_test1_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seqdetect1100_test2_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="seqdetect1100_test2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="seqdetect1100_test2_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seqdetect1100_test2_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="seqdetect1100_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="seqdetect1100_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="test1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="test1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="test1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="test1.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test1.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="test1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="test1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="test1.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test1_test_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test1_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test1_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="test1_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="upcounterdff.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="upcounterdff.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="upcounterdff.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="upcounterdff.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="upcounterdff.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="upcounterdff.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="upcounterdff.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="upcounterdff.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="upcounterdff1_test_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="upcounterdff1_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="upcounterdff2_test_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="upcounterdff_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="upcounterdff_test_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="upcounterdff_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="upcounterdff_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1601376831" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1601376831">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608346558" xil_pn:in_ck="8284605212981393674" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1608346558">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="AND1ns_test.vhd"/>
+      <outfile xil_pn:name="AND_DELAY1ns.vhd"/>
+      <outfile xil_pn:name="D-FF.vhd"/>
+      <outfile xil_pn:name="DFF_test.vhd"/>
+      <outfile xil_pn:name="Dflipflop.vhd"/>
+      <outfile xil_pn:name="DflipflopNew_test.vhd"/>
+      <outfile xil_pn:name="FA_DELAY.vhd"/>
+      <outfile xil_pn:name="FAns_test.vhd"/>
+      <outfile xil_pn:name="FOURADDERCLA.vhd"/>
+      <outfile xil_pn:name="FOUR_BIT_ADDER_DELAY.vhd"/>
+      <outfile xil_pn:name="HA_DELAY.vhd"/>
+      <outfile xil_pn:name="HA_test.vhd"/>
+      <outfile xil_pn:name="HAns_test.vhd"/>
+      <outfile xil_pn:name="NOT3ms_test.vhd"/>
+      <outfile xil_pn:name="NOT_DELAY3ns.vhd"/>
+      <outfile xil_pn:name="OR2ns_test.vhd"/>
+      <outfile xil_pn:name="OR_DELAY2ns.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="RAM_test0.vhd"/>
+      <outfile xil_pn:name="XOR_DELAY.vhd"/>
+      <outfile xil_pn:name="XORns_test.vhd"/>
+      <outfile xil_pn:name="add_sub_test.vhd"/>
+      <outfile xil_pn:name="choice.vhd"/>
+      <outfile xil_pn:name="clk_div_5711.vhd"/>
+      <outfile xil_pn:name="clk_div_5711_test.vhd"/>
+      <outfile xil_pn:name="clk_div_mod.vhd"/>
+      <outfile xil_pn:name="clk_div_mod_test.vhd"/>
+      <outfile xil_pn:name="clk_div_x.vhd"/>
+      <outfile xil_pn:name="clk_div_x1_test.vhd"/>
+      <outfile xil_pn:name="clk_div_x2_test.vhd"/>
+      <outfile xil_pn:name="clk_div_x_test.vhd"/>
+      <outfile xil_pn:name="comparator.vhd"/>
+      <outfile xil_pn:name="comparator_if.vhd"/>
+      <outfile xil_pn:name="comparator_if_test.vhd"/>
+      <outfile xil_pn:name="comparator_test.vhd"/>
+      <outfile xil_pn:name="coun0-9and9-0.vhd"/>
+      <outfile xil_pn:name="count09and90_test.vhd"/>
+      <outfile xil_pn:name="counter4_test.vhd"/>
+      <outfile xil_pn:name="dec2_test.vhd"/>
+      <outfile xil_pn:name="dec2to4bymulti4to1.vhd"/>
+      <outfile xil_pn:name="dec3e_test.vhd"/>
+      <outfile xil_pn:name="dec4.vhd"/>
+      <outfile xil_pn:name="dec4_test.vhd"/>
+      <outfile xil_pn:name="dec4to16.vhd"/>
+      <outfile xil_pn:name="dec4to2.vhd"/>
+      <outfile xil_pn:name="decby_test.vhd"/>
+      <outfile xil_pn:name="detect1100.vhd"/>
+      <outfile xil_pn:name="detect1100_test0.vhd"/>
+      <outfile xil_pn:name="detect1100_test1.vhd"/>
+      <outfile xil_pn:name="detect1100_test2.vhd"/>
+      <outfile xil_pn:name="detect1100_test3.vhd"/>
+      <outfile xil_pn:name="four1_test.vhd"/>
+      <outfile xil_pn:name="four_add_sub.vhd"/>
+      <outfile xil_pn:name="four_bit_adder.vhd"/>
+      <outfile xil_pn:name="four_test.vhd"/>
+      <outfile xil_pn:name="fouraddns_test.vhd"/>
+      <outfile xil_pn:name="fourcla_test.vhd"/>
+      <outfile xil_pn:name="fulladder.vhd"/>
+      <outfile xil_pn:name="fulladder_test.vhd"/>
+      <outfile xil_pn:name="halfadder.vhd"/>
+      <outfile xil_pn:name="mult_test.vhd"/>
+      <outfile xil_pn:name="multi16_test.vhd"/>
+      <outfile xil_pn:name="multi16to1by2to1.vhd"/>
+      <outfile xil_pn:name="multi21_test.vhd"/>
+      <outfile xil_pn:name="multi2to1.vhd"/>
+      <outfile xil_pn:name="multi4to1by2to1byselectwhen.vhd"/>
+      <outfile xil_pn:name="multi4to1by2to1byselectwhen_test.vhd"/>
+      <outfile xil_pn:name="multi_plexer.vhd"/>
+      <outfile xil_pn:name="multi_test.vhd"/>
+      <outfile xil_pn:name="priorityencoder4to2_test.vhd"/>
+      <outfile xil_pn:name="priorityendcoder4to2.vhd"/>
+      <outfile xil_pn:name="seg7.vhd"/>
+      <outfile xil_pn:name="seg7case.vhd"/>
+      <outfile xil_pn:name="seg7case_test.vhd"/>
+      <outfile xil_pn:name="seg_test.vhd"/>
+      <outfile xil_pn:name="seqdetect1100.vhd"/>
+      <outfile xil_pn:name="seqdetect1100_test0.vhd"/>
+      <outfile xil_pn:name="seqdetect1100_test1.vhd"/>
+      <outfile xil_pn:name="seqdetect1100_test2.vhd"/>
+      <outfile xil_pn:name="shiftregister.vhd"/>
+      <outfile xil_pn:name="test1.vhd"/>
+      <outfile xil_pn:name="test1_test.vhd"/>
+      <outfile xil_pn:name="upcounterdff.vhd"/>
+      <outfile xil_pn:name="upcounterdff1_test.vhd"/>
+      <outfile xil_pn:name="upcounterdff2_test.vhd"/>
+      <outfile xil_pn:name="upcounterdff_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1608346562" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5926815487097296171" xil_pn:start_ts="1608346562">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608346562" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2412154274979985891" xil_pn:start_ts="1608346562">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608344014" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1873215365828088894" xil_pn:start_ts="1608344014">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1608346562" xil_pn:in_ck="8284605212981393674" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1608346562">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="AND1ns_test.vhd"/>
+      <outfile xil_pn:name="AND_DELAY1ns.vhd"/>
+      <outfile xil_pn:name="D-FF.vhd"/>
+      <outfile xil_pn:name="DFF_test.vhd"/>
+      <outfile xil_pn:name="Dflipflop.vhd"/>
+      <outfile xil_pn:name="DflipflopNew_test.vhd"/>
+      <outfile xil_pn:name="FA_DELAY.vhd"/>
+      <outfile xil_pn:name="FAns_test.vhd"/>
+      <outfile xil_pn:name="FOURADDERCLA.vhd"/>
+      <outfile xil_pn:name="FOUR_BIT_ADDER_DELAY.vhd"/>
+      <outfile xil_pn:name="HA_DELAY.vhd"/>
+      <outfile xil_pn:name="HA_test.vhd"/>
+      <outfile xil_pn:name="HAns_test.vhd"/>
+      <outfile xil_pn:name="NOT3ms_test.vhd"/>
+      <outfile xil_pn:name="NOT_DELAY3ns.vhd"/>
+      <outfile xil_pn:name="OR2ns_test.vhd"/>
+      <outfile xil_pn:name="OR_DELAY2ns.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="RAM_test0.vhd"/>
+      <outfile xil_pn:name="XOR_DELAY.vhd"/>
+      <outfile xil_pn:name="XORns_test.vhd"/>
+      <outfile xil_pn:name="add_sub_test.vhd"/>
+      <outfile xil_pn:name="choice.vhd"/>
+      <outfile xil_pn:name="clk_div_5711.vhd"/>
+      <outfile xil_pn:name="clk_div_5711_test.vhd"/>
+      <outfile xil_pn:name="clk_div_mod.vhd"/>
+      <outfile xil_pn:name="clk_div_mod_test.vhd"/>
+      <outfile xil_pn:name="clk_div_x.vhd"/>
+      <outfile xil_pn:name="clk_div_x1_test.vhd"/>
+      <outfile xil_pn:name="clk_div_x2_test.vhd"/>
+      <outfile xil_pn:name="clk_div_x_test.vhd"/>
+      <outfile xil_pn:name="comparator.vhd"/>
+      <outfile xil_pn:name="comparator_if.vhd"/>
+      <outfile xil_pn:name="comparator_if_test.vhd"/>
+      <outfile xil_pn:name="comparator_test.vhd"/>
+      <outfile xil_pn:name="coun0-9and9-0.vhd"/>
+      <outfile xil_pn:name="count09and90_test.vhd"/>
+      <outfile xil_pn:name="counter4_test.vhd"/>
+      <outfile xil_pn:name="dec2_test.vhd"/>
+      <outfile xil_pn:name="dec2to4bymulti4to1.vhd"/>
+      <outfile xil_pn:name="dec3e_test.vhd"/>
+      <outfile xil_pn:name="dec4.vhd"/>
+      <outfile xil_pn:name="dec4_test.vhd"/>
+      <outfile xil_pn:name="dec4to16.vhd"/>
+      <outfile xil_pn:name="dec4to2.vhd"/>
+      <outfile xil_pn:name="decby_test.vhd"/>
+      <outfile xil_pn:name="detect1100.vhd"/>
+      <outfile xil_pn:name="detect1100_test0.vhd"/>
+      <outfile xil_pn:name="detect1100_test1.vhd"/>
+      <outfile xil_pn:name="detect1100_test2.vhd"/>
+      <outfile xil_pn:name="detect1100_test3.vhd"/>
+      <outfile xil_pn:name="four1_test.vhd"/>
+      <outfile xil_pn:name="four_add_sub.vhd"/>
+      <outfile xil_pn:name="four_bit_adder.vhd"/>
+      <outfile xil_pn:name="four_test.vhd"/>
+      <outfile xil_pn:name="fouraddns_test.vhd"/>
+      <outfile xil_pn:name="fourcla_test.vhd"/>
+      <outfile xil_pn:name="fulladder.vhd"/>
+      <outfile xil_pn:name="fulladder_test.vhd"/>
+      <outfile xil_pn:name="halfadder.vhd"/>
+      <outfile xil_pn:name="mult_test.vhd"/>
+      <outfile xil_pn:name="multi16_test.vhd"/>
+      <outfile xil_pn:name="multi16to1by2to1.vhd"/>
+      <outfile xil_pn:name="multi21_test.vhd"/>
+      <outfile xil_pn:name="multi2to1.vhd"/>
+      <outfile xil_pn:name="multi4to1by2to1byselectwhen.vhd"/>
+      <outfile xil_pn:name="multi4to1by2to1byselectwhen_test.vhd"/>
+      <outfile xil_pn:name="multi_plexer.vhd"/>
+      <outfile xil_pn:name="multi_test.vhd"/>
+      <outfile xil_pn:name="priorityencoder4to2_test.vhd"/>
+      <outfile xil_pn:name="priorityendcoder4to2.vhd"/>
+      <outfile xil_pn:name="seg7.vhd"/>
+      <outfile xil_pn:name="seg7case.vhd"/>
+      <outfile xil_pn:name="seg7case_test.vhd"/>
+      <outfile xil_pn:name="seg_test.vhd"/>
+      <outfile xil_pn:name="seqdetect1100.vhd"/>
+      <outfile xil_pn:name="seqdetect1100_test0.vhd"/>
+      <outfile xil_pn:name="seqdetect1100_test1.vhd"/>
+      <outfile xil_pn:name="seqdetect1100_test2.vhd"/>
+      <outfile xil_pn:name="shiftregister.vhd"/>
+      <outfile xil_pn:name="test1.vhd"/>
+      <outfile xil_pn:name="test1_test.vhd"/>
+      <outfile xil_pn:name="upcounterdff.vhd"/>
+      <outfile xil_pn:name="upcounterdff1_test.vhd"/>
+      <outfile xil_pn:name="upcounterdff2_test.vhd"/>
+      <outfile xil_pn:name="upcounterdff_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1608346568" xil_pn:in_ck="8284605212981393674" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4682601822494381709" xil_pn:start_ts="1608346562">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="seqdetect1100_test2_beh.prj"/>
+      <outfile xil_pn:name="seqdetect1100_test2_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1608346569" xil_pn:in_ck="-3694205333832064891" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8938742125593764000" xil_pn:start_ts="1608346568">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="seqdetect1100_test2_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1601375640" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1601375640">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348862" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-550753744797023306" xil_pn:start_ts="1608348862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348862" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8029411561414489515" xil_pn:start_ts="1608348862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348862" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1608348862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348862" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3891968488930152194" xil_pn:start_ts="1608348862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348862" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1608348862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348862" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="467221724102176991" xil_pn:start_ts="1608348862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348879" xil_pn:in_ck="7740063765909489644" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="3413474291297106815" xil_pn:start_ts="1608348862">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="Dflipflop.ngr"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="detect1100.lso"/>
+      <outfile xil_pn:name="detect1100.ngc"/>
+      <outfile xil_pn:name="detect1100.ngr"/>
+      <outfile xil_pn:name="detect1100.prj"/>
+      <outfile xil_pn:name="detect1100.stx"/>
+      <outfile xil_pn:name="detect1100.syr"/>
+      <outfile xil_pn:name="detect1100.xst"/>
+      <outfile xil_pn:name="detect1100_test0_stx_beh.prj"/>
+      <outfile xil_pn:name="detect1100_test1_stx_beh.prj"/>
+      <outfile xil_pn:name="detect1100_test2_stx_beh.prj"/>
+      <outfile xil_pn:name="detect1100_test3_stx_beh.prj"/>
+      <outfile xil_pn:name="detect1100_vhdl.prj"/>
+      <outfile xil_pn:name="detect1100_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348879" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="676002929487437683" xil_pn:start_ts="1608348879">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1608348883" xil_pn:in_ck="2184800386668330785" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="-3151460484879738734" xil_pn:start_ts="1608348879">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/detect1100_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/detect1100_synthesis.vhd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

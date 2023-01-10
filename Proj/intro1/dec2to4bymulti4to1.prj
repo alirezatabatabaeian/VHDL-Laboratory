@@ -1,0 +1,2 @@
+vhdl work "multi_plexer.vhd"
+vhdl work "dec2to4bymulti4to1.vhd"

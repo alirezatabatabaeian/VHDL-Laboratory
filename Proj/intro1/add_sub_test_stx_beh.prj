@@ -1,0 +1,5 @@
+vhdl isim_temp "halfadder.vhd"
+vhdl isim_temp "fulladder.vhd"
+vhdl isim_temp "four_bit_adder.vhd"
+vhdl isim_temp "four_add_sub.vhd"
+vhdl isim_temp "add_sub_test.vhd"

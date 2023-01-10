@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/comparator.xst" -ofn "E:/Proj/intro1/comparator.syr" 
+netgen -intstyle ise -ar Structure -tm comparator -w -dir netgen/synthesis -ofmt vhdl -sim comparator.ngc comparator_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/comparator.xst" -ofn "E:/Proj/intro1/comparator.syr" 
+netgen -intstyle ise -ar Structure -tm comparator -w -dir netgen/synthesis -ofmt vhdl -sim comparator.ngc comparator_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/comparator.xst" -ofn "E:/Proj/intro1/comparator.syr" 
+netgen -intstyle ise -ar Structure -tm comparator -w -dir netgen/synthesis -ofmt vhdl -sim comparator.ngc comparator_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/comparator.xst" -ofn "E:/Proj/intro1/comparator.syr" 
+netgen -intstyle ise -ar Structure -tm comparator -w -dir netgen/synthesis -ofmt vhdl -sim comparator.ngc comparator_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/comparator.xst" -ofn "E:/Proj/intro1/comparator.syr" 
+netgen -intstyle ise -ar Structure -tm comparator -w -dir netgen/synthesis -ofmt vhdl -sim comparator.ngc comparator_synthesis.vhd 

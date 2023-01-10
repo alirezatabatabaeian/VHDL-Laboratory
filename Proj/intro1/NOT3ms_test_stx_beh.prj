@@ -1,0 +1,2 @@
+vhdl isim_temp "NOT_DELAY3ns.vhd"
+vhdl isim_temp "NOT3ms_test.vhd"

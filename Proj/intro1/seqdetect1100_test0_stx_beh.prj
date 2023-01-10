@@ -1,0 +1,2 @@
+vhdl isim_temp "seqdetect1100.vhd"
+vhdl isim_temp "seqdetect1100_test0.vhd"

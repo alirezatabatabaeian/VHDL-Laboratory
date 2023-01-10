@@ -1,0 +1,4 @@
+vhdl work "E:\Proj\intro1\fulladder.vhd"
+vhdl work "E:\Proj\intro1\four_bit_adder.vhd"
+vhdl work "E:\Proj\intro1\four_add_sub.vhd"
+vhdl work "E:\Proj\intro1\comparator.vhd"

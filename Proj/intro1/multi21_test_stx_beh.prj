@@ -1,0 +1,2 @@
+vhdl isim_temp "multi2to1.vhd"
+vhdl isim_temp "multi21_test.vhd"

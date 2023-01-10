@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/priorityendcoder4to2.xst" -ofn "E:/Proj/intro1/priorityendcoder4to2.syr" 
+netgen -intstyle ise -ar Structure -tm priorityendcoder4to2 -w -dir netgen/synthesis -ofmt vhdl -sim priorityendcoder4to2.ngc priorityendcoder4to2_synthesis.vhd 

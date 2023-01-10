@@ -1,0 +1,5 @@
+[Inputs]
+=a_in[2:0]=
+[Outputs]
+=b_out[1:0]=
+[BiDir]

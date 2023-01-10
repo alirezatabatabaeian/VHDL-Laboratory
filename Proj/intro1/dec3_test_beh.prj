@@ -1,0 +1,2 @@
+vhdl work "dec4to16.vhd"
+vhdl work "dec3_test.vhd"

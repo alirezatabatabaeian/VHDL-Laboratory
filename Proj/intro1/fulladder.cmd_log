@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/fulladder.xst" -ofn "E:/Proj/intro1/fulladder.syr" 
+netgen -intstyle ise -ar Structure -tm fulladder -w -dir netgen/synthesis -ofmt vhdl -sim fulladder.ngc fulladder_synthesis.vhd 
+vhdtdtfi -prj intro1 -o E:/Proj/intro1/fulladder.vhi -module fulladder -template E:/ISE/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work fulladder.vhd 
+vhdtdtfi -lib work fulladder.vhd -prj intro1 -o fulladder.spl -module fulladder -template E:/ISE/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 fulladder.spl E:/Proj/intro1/fulladder.sym 

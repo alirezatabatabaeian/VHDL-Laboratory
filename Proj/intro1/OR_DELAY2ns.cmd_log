@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/OR_DELAY2ns.xst" -ofn "E:/Proj/intro1/OR_DELAY2ns.syr" 
+netgen -intstyle ise -ar Structure -tm OR_DELAY2ns -w -dir netgen/synthesis -ofmt vhdl -sim OR_DELAY2ns.ngc OR_DELAY2ns_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/OR_DELAY2ns.xst" -ofn "E:/Proj/intro1/OR_DELAY2ns.syr" 
+netgen -intstyle ise -ar Structure -tm OR_DELAY2ns -w -dir netgen/synthesis -ofmt vhdl -sim OR_DELAY2ns.ngc OR_DELAY2ns_synthesis.vhd 

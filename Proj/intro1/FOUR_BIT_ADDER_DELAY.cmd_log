@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/FOUR_BIT_ADDER_DELAY.xst" -ofn "E:/Proj/intro1/FOUR_BIT_ADDER_DELAY.syr" 
+netgen -intstyle ise -ar Structure -tm FOUR_BIT_ADDER_DELAY -w -dir netgen/synthesis -ofmt vhdl -sim FOUR_BIT_ADDER_DELAY.ngc FOUR_BIT_ADDER_DELAY_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/FOUR_BIT_ADDER_DELAY.xst" -ofn "E:/Proj/intro1/FOUR_BIT_ADDER_DELAY.syr" 
+netgen -intstyle ise -ar Structure -tm FOUR_BIT_ADDER_DELAY -w -dir netgen/synthesis -ofmt vhdl -sim FOUR_BIT_ADDER_DELAY.ngc FOUR_BIT_ADDER_DELAY_synthesis.vhd 

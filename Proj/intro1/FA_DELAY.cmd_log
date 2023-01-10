@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/FA_DELAY.xst" -ofn "E:/Proj/intro1/FA_DELAY.syr" 
+netgen -intstyle ise -ar Structure -tm FA_DELAY -w -dir netgen/synthesis -ofmt vhdl -sim FA_DELAY.ngc FA_DELAY_synthesis.vhd 

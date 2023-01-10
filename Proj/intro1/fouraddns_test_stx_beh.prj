@@ -1,0 +1,8 @@
+vhdl isim_temp "OR_DELAY2ns.vhd"
+vhdl isim_temp "NOT_DELAY3ns.vhd"
+vhdl isim_temp "AND_DELAY1ns.vhd"
+vhdl isim_temp "XOR_DELAY.vhd"
+vhdl isim_temp "HA_DELAY.vhd"
+vhdl isim_temp "FA_DELAY.vhd"
+vhdl isim_temp "FOUR_BIT_ADDER_DELAY.vhd"
+vhdl isim_temp "fouraddns_test.vhd"

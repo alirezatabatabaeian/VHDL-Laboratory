@@ -1,0 +1,326 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.32 secs
+ 
+--> Reading design: priorityendcoder4to2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "priorityendcoder4to2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "priorityendcoder4to2"
+Output Format                      : NGC
+Target Device                      : xc3s400-5-pq208
+
+---- Source Options
+Top Module Name                    : priorityendcoder4to2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/Proj/intro1/priorityendcoder4to2.vhd" in Library work.
+Architecture behavioral of Entity priorityendcoder4to2 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <priorityendcoder4to2> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <priorityendcoder4to2> in library <work> (Architecture <behavioral>).
+Entity <priorityendcoder4to2> analyzed. Unit <priorityendcoder4to2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <priorityendcoder4to2>.
+    Related source file is "E:/Proj/intro1/priorityendcoder4to2.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <Q> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+WARNING:Xst:737 - Found 2-bit latch for signal <outputnumber>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <priorityendcoder4to2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 2-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 2-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <priorityendcoder4to2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block priorityendcoder4to2, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : priorityendcoder4to2.ngr
+Top Level Output File Name         : priorityendcoder4to2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 5
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT3                        : 1
+# FlipFlops/Latches                : 2
+#      LDCP                        : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 3
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                        2  out of   3584     0%  
+ Number of 4 input LUTs:                  4  out of   7168     0%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    141     4%  
+    IOB Flip Flops:                       2
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+inputnumber<0>                     | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------+------------------------+-------+
+Control Signal                                     | Buffer(FF name)        | Load  |
+---------------------------------------------------+------------------------+-------+
+outputnumber_0__or0000(outputnumber_0__or00001:O)  | NONE(outputnumber_0)   | 1     |
+outputnumber_0__or0001(outputnumber_0__or00011:O)  | NONE(outputnumber_0)   | 1     |
+outputnumber_1__and0000(outputnumber_1__and00001:O)| NONE(outputnumber_1)   | 1     |
+outputnumber_1__or0000(outputnumber_Q_1_or00001:O) | NONE(outputnumber_1)   | 1     |
+---------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.662ns
+   Maximum output required time after clock: 6.141ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'inputnumber<0>'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.662ns (Levels of Logic = 1)
+  Source:            inputnumber<1> (PAD)
+  Destination:       outputnumber_0 (LATCH)
+  Destination Clock: inputnumber<0> falling
+
+  Data Path: inputnumber<1> to outputnumber_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.715   0.771  inputnumber_1_IBUF (inputnumber_1_IBUF)
+     LDCP:D                    0.176          outputnumber_0
+    ----------------------------------------
+    Total                      1.662ns (0.891ns logic, 0.771ns route)
+                                       (53.6% logic, 46.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'inputnumber<0>'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              6.141ns (Levels of Logic = 1)
+  Source:            outputnumber_1 (LATCH)
+  Destination:       outputnumber<1> (PAD)
+  Source Clock:      inputnumber<0> falling
+
+  Data Path: outputnumber_1 to outputnumber<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             1   0.551   0.681  outputnumber_1 (outputnumber_1)
+     OBUF:I->O                 4.909          outputnumber_1_OBUF (outputnumber<1>)
+    ----------------------------------------
+    Total                      6.141ns (5.460ns logic, 0.681ns route)
+                                       (88.9% logic, 11.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.52 secs
+ 
+--> 
+
+Total memory usage is 4489168 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

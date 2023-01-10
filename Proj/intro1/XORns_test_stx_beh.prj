@@ -1,0 +1,5 @@
+vhdl isim_temp "OR_DELAY2ns.vhd"
+vhdl isim_temp "NOT_DELAY3ns.vhd"
+vhdl isim_temp "AND_DELAY1ns.vhd"
+vhdl isim_temp "XOR_DELAY.vhd"
+vhdl isim_temp "XORns_test.vhd"

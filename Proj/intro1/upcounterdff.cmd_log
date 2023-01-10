@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/upcounterdff.xst" -ofn "E:/Proj/intro1/upcounterdff.syr" 
+netgen -intstyle ise -ar Structure -tm upcounterdff -w -dir netgen/synthesis -ofmt vhdl -sim upcounterdff.ngc upcounterdff_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/upcounterdff.xst" -ofn "E:/Proj/intro1/upcounterdff.syr" 
+netgen -intstyle ise -ar Structure -tm upcounterdff -w -dir netgen/synthesis -ofmt vhdl -sim upcounterdff.ngc upcounterdff_synthesis.vhd 

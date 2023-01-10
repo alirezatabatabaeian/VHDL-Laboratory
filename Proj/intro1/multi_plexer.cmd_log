@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/multi_plexer.xst" -ofn "E:/Proj/intro1/multi_plexer.syr" 
+netgen -intstyle ise -ar Structure -tm multi_plexer -w -dir netgen/synthesis -ofmt vhdl -sim multi_plexer.ngc multi_plexer_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/multi_plexer.xst" -ofn "E:/Proj/intro1/multi_plexer.syr" 
+netgen -intstyle ise -ar Structure -tm multi_plexer -w -dir netgen/synthesis -ofmt vhdl -sim multi_plexer.ngc multi_plexer_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/multi_plexer.xst" -ofn "E:/Proj/intro1/multi_plexer.syr" 
+netgen -intstyle ise -ar Structure -tm multi_plexer -w -dir netgen/synthesis -ofmt vhdl -sim multi_plexer.ngc multi_plexer_synthesis.vhd 

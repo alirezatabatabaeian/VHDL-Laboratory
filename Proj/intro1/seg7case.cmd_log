@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/seg7case.xst" -ofn "E:/Proj/intro1/seg7case.syr" 
+netgen -intstyle ise -ar Structure -tm seg7case -w -dir netgen/synthesis -ofmt vhdl -sim seg7case.ngc seg7case_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/seg7case.xst" -ofn "E:/Proj/intro1/seg7case.syr" 
+netgen -intstyle ise -ar Structure -tm seg7case -w -dir netgen/synthesis -ofmt vhdl -sim seg7case.ngc seg7case_synthesis.vhd 

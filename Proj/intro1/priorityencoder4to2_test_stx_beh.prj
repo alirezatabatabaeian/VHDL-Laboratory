@@ -1,0 +1,2 @@
+vhdl isim_temp "priorityendcoder4to2.vhd"
+vhdl isim_temp "priorityencoder4to2_test.vhd"

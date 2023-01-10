@@ -1,0 +1,2 @@
+vhdl isim_temp "D-FF.vhd"
+vhdl isim_temp "DFF_test.vhd"

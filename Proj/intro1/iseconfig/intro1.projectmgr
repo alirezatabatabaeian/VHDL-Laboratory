@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="intro1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AND1ns_test - behavior E:|Proj|intro1|AND1ns_test.vhd</ClosedNode>
+         <ClosedNode>/FA_DELAY - Behavioral E:|Proj|intro1|FA_DELAY.vhd</ClosedNode>
+         <ClosedNode>/FAns_test - behavior E:|Proj|intro1|FAns_test.vhd</ClosedNode>
+         <ClosedNode>/FOURADDERCLA - Behavioral E:|Proj|intro1|FOURADDERCLA.vhd</ClosedNode>
+         <ClosedNode>/FOUR_BIT_ADDER_DELAY - Behavioral E:|Proj|intro1|FOUR_BIT_ADDER_DELAY.vhd</ClosedNode>
+         <ClosedNode>/FOUR_BIT_ADDER_DELAY - Behavioral E:|Proj|intro1|FOUR_BIT_ADDER_DELAY.vhd/FA1 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/FOUR_BIT_ADDER_DELAY - Behavioral E:|Proj|intro1|FOUR_BIT_ADDER_DELAY.vhd/FA2 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/FOUR_BIT_ADDER_DELAY - Behavioral E:|Proj|intro1|FOUR_BIT_ADDER_DELAY.vhd/FA3 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/FOUR_BIT_ADDER_DELAY - Behavioral E:|Proj|intro1|FOUR_BIT_ADDER_DELAY.vhd/FA4 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/HA_DELAY - Behavioral E:|Proj|intro1|HA_DELAY.vhd</ClosedNode>
+         <ClosedNode>/HA_test - behavior E:|Proj|intro1|HA_test.vhd</ClosedNode>
+         <ClosedNode>/HAns_test - behavior E:|Proj|intro1|HAns_test.vhd</ClosedNode>
+         <ClosedNode>/NOT3ms_test - behavior E:|Proj|intro1|NOT3ms_test.vhd</ClosedNode>
+         <ClosedNode>/OR2ns_test - behavior E:|Proj|intro1|OR2ns_test.vhd</ClosedNode>
+         <ClosedNode>/XOR_DELAY - Behavioral E:|Proj|intro1|XOR_DELAY.vhd</ClosedNode>
+         <ClosedNode>/XORns_test - behavior E:|Proj|intro1|XORns_test.vhd</ClosedNode>
+         <ClosedNode>/add_sub_test - behavior E:|Proj|intro1|add_sub_test.vhd</ClosedNode>
+         <ClosedNode>/comparator - Behavioral E:|Proj|intro1|comparator.vhd</ClosedNode>
+         <ClosedNode>/comparator - Behavioral E:|Proj|intro1|comparator.vhd/four_add_sub1 - four_add_sub - Behavioral/bitadd - four_bit_adder - Behavioral/FA2 - fulladder - Behavioral</ClosedNode>
+         <ClosedNode>/comparator - Behavioral E:|Proj|intro1|comparator.vhd/four_add_sub1 - four_add_sub - Behavioral/bitadd - four_bit_adder - Behavioral/FA3 - fulladder - Behavioral</ClosedNode>
+         <ClosedNode>/comparator - Behavioral E:|Proj|intro1|comparator.vhd/four_add_sub1 - four_add_sub - Behavioral/bitadd - four_bit_adder - Behavioral/FA4 - fulladder - Behavioral</ClosedNode>
+         <ClosedNode>/comparator_if_test - behavior E:|Proj|intro1|comparator_if_test.vhd</ClosedNode>
+         <ClosedNode>/comparator_test - behavior E:|Proj|intro1|comparator_test.vhd</ClosedNode>
+         <ClosedNode>/comparator_test - behavior E:|Proj|intro1|comparator_test.vhd/uut - comparator - Behavioral</ClosedNode>
+         <ClosedNode>/dec2_test - behavior E:|Proj|intro1|dec2_test.vhd</ClosedNode>
+         <ClosedNode>/dec2to4bymulti4to1 - Behavioral E:|Proj|intro1|dec2to4bymulti4to1.vhd</ClosedNode>
+         <ClosedNode>/dec3e_test - behavior E:|Proj|intro1|dec3e_test.vhd</ClosedNode>
+         <ClosedNode>/dec4 - behavior E:|Proj|intro1|dec4.vhd</ClosedNode>
+         <ClosedNode>/dec4_test - behavior E:|Proj|intro1|dec4_test.vhd</ClosedNode>
+         <ClosedNode>/decby_test - behavior E:|Proj|intro1|decby_test.vhd</ClosedNode>
+         <ClosedNode>/detect1100 - Behavioral E:|Proj|intro1|detect1100.vhd</ClosedNode>
+         <ClosedNode>/four1_test - behavior E:|Proj|intro1|four1_test.vhd</ClosedNode>
+         <ClosedNode>/four_add_sub - Behavioral E:|Proj|intro1|four_add_sub.vhd</ClosedNode>
+         <ClosedNode>/four_bit_adder - Behavioral E:|Proj|intro1|four_bit_adder.vhd</ClosedNode>
+         <ClosedNode>/four_test - behavior E:|Proj|intro1|four_test.vhd</ClosedNode>
+         <ClosedNode>/fouraddns_test - behavior E:|Proj|intro1|fouraddns_test.vhd</ClosedNode>
+         <ClosedNode>/fourcla_test - behavior E:|Proj|intro1|fourcla_test.vhd/uut - FOURADDERCLA - Behavioral</ClosedNode>
+         <ClosedNode>/fulladder_test - behavior E:|Proj|intro1|fulladder_test.vhd</ClosedNode>
+         <ClosedNode>/mult_test - behavior E:|Proj|intro1|mult_test.vhd</ClosedNode>
+         <ClosedNode>/multi16_test - behavior E:|Proj|intro1|multi16_test.vhd</ClosedNode>
+         <ClosedNode>/multi16to1by2to1 - Behavioral E:|Proj|intro1|multi16to1by2to1.vhd</ClosedNode>
+         <ClosedNode>/multi21_test - behavior E:|Proj|intro1|multi21_test.vhd</ClosedNode>
+         <ClosedNode>/multi4to1by2to1byselectwhen_test - behavior E:|Proj|intro1|multi4to1by2to1byselectwhen_test.vhd</ClosedNode>
+         <ClosedNode>/multi_test - behavior E:|Proj|intro1|multi_test.vhd</ClosedNode>
+         <ClosedNode>/priorityencoder4to2_test - behavior E:|Proj|intro1|priorityencoder4to2_test.vhd</ClosedNode>
+         <ClosedNode>/seg7case_test - behavior E:|Proj|intro1|seg7case_test.vhd</ClosedNode>
+         <ClosedNode>/seg_test - behavior E:|Proj|intro1|seg_test.vhd</ClosedNode>
+         <ClosedNode>/upcounterdff - Behavioral E:|Proj|intro1|upcounterdff.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>priorityendcoder4to2 - Behavioral (E:/Proj/intro1/priorityendcoder4to2.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e6000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>priorityendcoder4to2 - Behavioral (E:/Proj/intro1/priorityendcoder4to2.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >32</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000011f000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>halfadder.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000111000000010001000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AND1ns_test - behavior E:|Proj|intro1|AND1ns_test.vhd</ClosedNode>
+         <ClosedNode>/DFF_test - behavior E:|Proj|intro1|DFF_test.vhd</ClosedNode>
+         <ClosedNode>/DflipflopNew_test - behavior E:|Proj|intro1|DflipflopNew_test.vhd</ClosedNode>
+         <ClosedNode>/FAns_test - behavior E:|Proj|intro1|FAns_test.vhd</ClosedNode>
+         <ClosedNode>/HA_test - behavior E:|Proj|intro1|HA_test.vhd</ClosedNode>
+         <ClosedNode>/HAns_test - behavior E:|Proj|intro1|HAns_test.vhd</ClosedNode>
+         <ClosedNode>/NOT3ms_test - behavior E:|Proj|intro1|NOT3ms_test.vhd</ClosedNode>
+         <ClosedNode>/OR2ns_test - behavior E:|Proj|intro1|OR2ns_test.vhd</ClosedNode>
+         <ClosedNode>/RAM_test0 - behavior E:|Proj|intro1|RAM_test0.vhd</ClosedNode>
+         <ClosedNode>/XORns_test - behavior E:|Proj|intro1|XORns_test.vhd</ClosedNode>
+         <ClosedNode>/add_sub_test - behavior E:|Proj|intro1|add_sub_test.vhd</ClosedNode>
+         <ClosedNode>/add_sub_test - behavior E:|Proj|intro1|add_sub_test.vhd/uut - four_add_sub - Behavioral/bitadd - four_bit_adder - Behavioral/FA1 - fulladder - Behavioral</ClosedNode>
+         <ClosedNode>/add_sub_test - behavior E:|Proj|intro1|add_sub_test.vhd/uut - four_add_sub - Behavioral/bitadd - four_bit_adder - Behavioral/FA2 - fulladder - Behavioral</ClosedNode>
+         <ClosedNode>/add_sub_test - behavior E:|Proj|intro1|add_sub_test.vhd/uut - four_add_sub - Behavioral/bitadd - four_bit_adder - Behavioral/FA3 - fulladder - Behavioral</ClosedNode>
+         <ClosedNode>/add_sub_test - behavior E:|Proj|intro1|add_sub_test.vhd/uut - four_add_sub - Behavioral/bitadd - four_bit_adder - Behavioral/FA4 - fulladder - Behavioral</ClosedNode>
+         <ClosedNode>/clk3_test - behavior E:|Proj|intro1|clk3_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div1_test - behavior E:|Proj|intro1|clk_div1_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div2_test - behavior E:|Proj|intro1|clk_div2_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div3_test - behavior E:|Proj|intro1|clk_div3_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div4_test - behavior E:|Proj|intro1|clk_div4_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div_5711_test - behavior E:|Proj|intro1|clk_div_5711_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div_mod_test - behavior E:|Proj|intro1|clk_div_mod_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div_x1_test - behavior E:|Proj|intro1|clk_div_x1_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div_x2_test - behavior E:|Proj|intro1|clk_div_x2_test.vhd</ClosedNode>
+         <ClosedNode>/clk_div_x_test - behavior E:|Proj|intro1|clk_div_x_test.vhd</ClosedNode>
+         <ClosedNode>/clk_test - behavior E:|Proj|intro1|clk_test.vhd</ClosedNode>
+         <ClosedNode>/comparator_if_test - behavior E:|Proj|intro1|comparator_if_test.vhd</ClosedNode>
+         <ClosedNode>/comparator_test - behavior E:|Proj|intro1|comparator_test.vhd</ClosedNode>
+         <ClosedNode>/comparator_test - behavior E:|Proj|intro1|comparator_test.vhd/uut - comparator - Behavioral/four_add_sub1 - four_add_sub - Behavioral</ClosedNode>
+         <ClosedNode>/count09and90_test - behavior E:|Proj|intro1|count09and90_test.vhd</ClosedNode>
+         <ClosedNode>/counter1_test - behavior E:|Proj|intro1|counter1_test.vhd</ClosedNode>
+         <ClosedNode>/counter2_test - behavior E:|Proj|intro1|counter2_test.vhd</ClosedNode>
+         <ClosedNode>/counter3_test - behavior E:|Proj|intro1|counter3_test.vhd</ClosedNode>
+         <ClosedNode>/counter4_test - behavior E:|Proj|intro1|counter4_test.vhd</ClosedNode>
+         <ClosedNode>/counter5_test - behavior E:|Proj|intro1|counter5_test.vhd</ClosedNode>
+         <ClosedNode>/counter6_test - behavior E:|Proj|intro1|counter6_test.vhd</ClosedNode>
+         <ClosedNode>/counter7_test - behavior E:|Proj|intro1|counter7_test.vhd</ClosedNode>
+         <ClosedNode>/counter8_test - behavior E:|Proj|intro1|counter8_test.vhd</ClosedNode>
+         <ClosedNode>/counter9_test - behavior E:|Proj|intro1|counter9_test.vhd</ClosedNode>
+         <ClosedNode>/dec2_test - behavior E:|Proj|intro1|dec2_test.vhd</ClosedNode>
+         <ClosedNode>/dec2to4bymulti4to1 - Behavioral E:|Proj|intro1|dec2to4bymulti4to1.vhd</ClosedNode>
+         <ClosedNode>/dec3_test - behavior E:|Proj|intro1|dec3_test.vhd</ClosedNode>
+         <ClosedNode>/dec3e_test - behavior E:|Proj|intro1|dec3e_test.vhd</ClosedNode>
+         <ClosedNode>/dec4 - behavior E:|Proj|intro1|dec4.vhd</ClosedNode>
+         <ClosedNode>/dec4_test - behavior E:|Proj|intro1|dec4_test.vhd</ClosedNode>
+         <ClosedNode>/decby_test - behavior E:|Proj|intro1|decby_test.vhd</ClosedNode>
+         <ClosedNode>/detect1100_test0 - behavior E:|Proj|intro1|detect1100_test0.vhd</ClosedNode>
+         <ClosedNode>/detect1100_test1 - behavior E:|Proj|intro1|detect1100_test1.vhd</ClosedNode>
+         <ClosedNode>/detect1100_test2 - behavior E:|Proj|intro1|detect1100_test2.vhd</ClosedNode>
+         <ClosedNode>/detect1100_test3 - behavior E:|Proj|intro1|detect1100_test3.vhd</ClosedNode>
+         <ClosedNode>/four1_test - behavior E:|Proj|intro1|four1_test.vhd</ClosedNode>
+         <ClosedNode>/four_add_sub - Behavioral E:|Proj|intro1|four_add_sub.vhd</ClosedNode>
+         <ClosedNode>/four_test - behavior E:|Proj|intro1|four_test.vhd</ClosedNode>
+         <ClosedNode>/fouraddns_test - behavior E:|Proj|intro1|fouraddns_test.vhd</ClosedNode>
+         <ClosedNode>/fouraddns_test - behavior E:|Proj|intro1|fouraddns_test.vhd/uut - FOUR_BIT_ADDER_DELAY - Behavioral/FA1 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/fouraddns_test - behavior E:|Proj|intro1|fouraddns_test.vhd/uut - FOUR_BIT_ADDER_DELAY - Behavioral/FA2 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/fouraddns_test - behavior E:|Proj|intro1|fouraddns_test.vhd/uut - FOUR_BIT_ADDER_DELAY - Behavioral/FA3 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/fouraddns_test - behavior E:|Proj|intro1|fouraddns_test.vhd/uut - FOUR_BIT_ADDER_DELAY - Behavioral/FA4 - FA_DELAY - Behavioral</ClosedNode>
+         <ClosedNode>/fourcla_test - behavior E:|Proj|intro1|fourcla_test.vhd</ClosedNode>
+         <ClosedNode>/fulladder_test - behavior E:|Proj|intro1|fulladder_test.vhd</ClosedNode>
+         <ClosedNode>/mult_test - behavior E:|Proj|intro1|mult_test.vhd</ClosedNode>
+         <ClosedNode>/multi16_test - behavior E:|Proj|intro1|multi16_test.vhd</ClosedNode>
+         <ClosedNode>/multi21_test - behavior E:|Proj|intro1|multi21_test.vhd</ClosedNode>
+         <ClosedNode>/multi4to1by2to1byselectwhen_test - behavior E:|Proj|intro1|multi4to1by2to1byselectwhen_test.vhd</ClosedNode>
+         <ClosedNode>/multi_test - behavior E:|Proj|intro1|multi_test.vhd</ClosedNode>
+         <ClosedNode>/priorityencoder4to2_test - behavior E:|Proj|intro1|priorityencoder4to2_test.vhd</ClosedNode>
+         <ClosedNode>/seg7case_test - behavior E:|Proj|intro1|seg7case_test.vhd</ClosedNode>
+         <ClosedNode>/seg_test - behavior E:|Proj|intro1|seg_test.vhd</ClosedNode>
+         <ClosedNode>/seqdetect1100_test0 - behavior E:|Proj|intro1|seqdetect1100_test0.vhd</ClosedNode>
+         <ClosedNode>/seqdetect1100_test1 - behavior E:|Proj|intro1|seqdetect1100_test1.vhd</ClosedNode>
+         <ClosedNode>/seqdetect1100_test2 - behavior E:|Proj|intro1|seqdetect1100_test2.vhd</ClosedNode>
+         <ClosedNode>/test1_test - behavior E:|Proj|intro1|test1_test.vhd</ClosedNode>
+         <ClosedNode>/upcounterdff1_test - behavior E:|Proj|intro1|upcounterdff1_test.vhd</ClosedNode>
+         <ClosedNode>/upcounterdff2_test - behavior E:|Proj|intro1|upcounterdff2_test.vhd</ClosedNode>
+         <ClosedNode>/upcounterdff_test - behavior E:|Proj|intro1|upcounterdff_test.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>detect1100_test3 - behavior (E:/Proj/intro1/detect1100_test3.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >22</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000020d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000020d0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>detect1100_test3 - behavior (E:/Proj/intro1/detect1100_test3.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001060000013201000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

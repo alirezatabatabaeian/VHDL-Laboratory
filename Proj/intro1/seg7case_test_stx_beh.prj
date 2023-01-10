@@ -1,0 +1,2 @@
+vhdl isim_temp "seg7case.vhd"
+vhdl isim_temp "seg7case_test.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "OR_DELAY2ns.vhd"
+vhdl isim_temp "OR2ns_test.vhd"

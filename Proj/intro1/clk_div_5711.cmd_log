@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/clk_div_5711.xst" -ofn "E:/Proj/intro1/clk_div_5711.syr" 
+netgen -intstyle ise -ar Structure -tm clk_div_5711 -w -dir netgen/synthesis -ofmt vhdl -sim clk_div_5711.ngc clk_div_5711_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/clk_div_5711.xst" -ofn "E:/Proj/intro1/clk_div_5711.syr" 
+xst -intstyle ise -ifn "E:/Proj/intro1/clk_div_5711.xst" -ofn "E:/Proj/intro1/clk_div_5711.syr" 
+xst -intstyle ise -ifn "E:/Proj/intro1/clk_div_5711.xst" -ofn "E:/Proj/intro1/clk_div_5711.syr" 
+xst -intstyle ise -ifn "E:/Proj/intro1/clk_div_5711.xst" -ofn "E:/Proj/intro1/clk_div_5711.syr" 

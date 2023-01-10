@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/four_bit_adder.xst" -ofn "E:/Proj/intro1/four_bit_adder.syr" 
+netgen -intstyle ise -ar Structure -tm four_bit_adder -w -dir netgen/synthesis -ofmt vhdl -sim four_bit_adder.ngc four_bit_adder_synthesis.vhd 

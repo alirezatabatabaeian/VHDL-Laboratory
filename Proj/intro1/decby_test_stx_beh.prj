@@ -1,0 +1,3 @@
+vhdl isim_temp "multi_plexer.vhd"
+vhdl isim_temp "dec2to4bymulti4to1.vhd"
+vhdl isim_temp "decby_test.vhd"

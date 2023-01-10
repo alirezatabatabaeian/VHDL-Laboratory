@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/multi4to1by2to1byselectwhen.xst" -ofn "E:/Proj/intro1/multi4to1by2to1byselectwhen.syr" 
+netgen -intstyle ise -ar Structure -tm multi4to1by2to1byselectwhen -w -dir netgen/synthesis -ofmt vhdl -sim multi4to1by2to1byselectwhen.ngc multi4to1by2to1byselectwhen_synthesis.vhd 

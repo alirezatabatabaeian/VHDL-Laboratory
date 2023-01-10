@@ -1,0 +1,7 @@
+vhdl work "E:\Proj\intro1\OR_DELAY2ns.vhd"
+vhdl work "E:\Proj\intro1\NOT_DELAY3ns.vhd"
+vhdl work "E:\Proj\intro1\AND_DELAY1ns.vhd"
+vhdl work "E:\Proj\intro1\XOR_DELAY.vhd"
+vhdl work "E:\Proj\intro1\HA_DELAY.vhd"
+vhdl work "E:\Proj\intro1\FA_DELAY.vhd"
+vhdl work "E:\Proj\intro1\FOUR_BIT_ADDER_DELAY.vhd"

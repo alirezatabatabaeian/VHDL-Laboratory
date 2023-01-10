@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/XOR_DELAY.xst" -ofn "E:/Proj/intro1/XOR_DELAY.syr" 
+netgen -intstyle ise -ar Structure -tm XOR_DELAY -w -dir netgen/synthesis -ofmt vhdl -sim XOR_DELAY.ngc XOR_DELAY_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/XOR_DELAY.xst" -ofn "E:/Proj/intro1/XOR_DELAY.syr" 
+netgen -intstyle ise -ar Structure -tm XOR_DELAY -w -dir netgen/synthesis -ofmt vhdl -sim XOR_DELAY.ngc XOR_DELAY_synthesis.vhd 

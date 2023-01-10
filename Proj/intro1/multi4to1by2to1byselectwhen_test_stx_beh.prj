@@ -1,0 +1,2 @@
+vhdl isim_temp "multi4to1by2to1byselectwhen.vhd"
+vhdl isim_temp "multi4to1by2to1byselectwhen_test.vhd"

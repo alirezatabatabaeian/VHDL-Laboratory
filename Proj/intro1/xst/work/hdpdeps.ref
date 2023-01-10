@@ -1,0 +1,194 @@
+V3 128
+FL E:/Proj/intro1/AND_DELAY1ns.vhd 2020/10/19.20:14:58 P.20131013
+EN work/AND_DELAY1ns 1605557597 FL E:/Proj/intro1/AND_DELAY1ns.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/AND_DELAY1ns/Behavioral 1605557598 \
+      FL E:/Proj/intro1/AND_DELAY1ns.vhd EN work/AND_DELAY1ns 1605557597
+FL E:/Proj/intro1/choice.vhd 2020/10/20.13:51:29 P.20131013
+EN work/choice 1603189674 FL E:/Proj/intro1/choice.vhd PB ieee/std_logic_1164 1381692176
+AR work/choice/Behavioral 1603189675 \
+      FL E:/Proj/intro1/choice.vhd EN work/choice 1603189674
+FL E:/Proj/intro1/clk.vhd 2020/11/08.21:38:39 P.20131013
+EN work/clk 1604858929 FL E:/Proj/intro1/clk.vhd PB ieee/std_logic_1164 1381692176
+AR work/clk/Behavioral 1604858930 \
+      FL E:/Proj/intro1/clk.vhd EN work/clk 1604858929
+FL E:/Proj/intro1/clk_div_5711.vhd 2020/11/30.23:51:13 P.20131013
+EN work/clk_div_5711 1606767681 FL E:/Proj/intro1/clk_div_5711.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk_div_5711/Behavioral 1606767682 \
+      FL E:/Proj/intro1/clk_div_5711.vhd EN work/clk_div_5711 1606767681
+FL E:/Proj/intro1/clk_div_mod.vhd 2020/12/01.00:34:58 P.20131013
+EN work/clk_div_mod 1606770305 FL E:/Proj/intro1/clk_div_mod.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk_div_mod/Behavioral 1606770306 \
+      FL E:/Proj/intro1/clk_div_mod.vhd EN work/clk_div_mod 1606770305
+FL E:/Proj/intro1/clk_div_x.vhd 2020/12/01.03:52:58 P.20131013
+EN work/clk_div_x 1606782202 FL E:/Proj/intro1/clk_div_x.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clk_div_x/Behavioral 1606782203 \
+      FL E:/Proj/intro1/clk_div_x.vhd EN work/clk_div_x 1606782202
+FL E:/Proj/intro1/clock1.vhd 2020/10/27.15:09:49 P.20131013
+EN work/clock 1603798806 FL E:/Proj/intro1/clock1.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock/Behavioral 1603798807 \
+      FL E:/Proj/intro1/clock1.vhd EN work/clock 1603798806
+FL E:/Proj/intro1/comparator.vhd 2020/10/04.01:16:57 P.20131013
+EN work/comparator 1601929101 FL E:/Proj/intro1/comparator.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/comparator/Behavioral 1601929102 \
+      FL E:/Proj/intro1/comparator.vhd EN work/comparator 1601929101 \
+      CP four_add_sub
+FL E:/Proj/intro1/comparator_if.vhd 2020/10/28.22:04:26 P.20131013
+EN work/comparator_if 1603910096 FL E:/Proj/intro1/comparator_if.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/comparator_if/Behavioral 1603910097 \
+      FL E:/Proj/intro1/comparator_if.vhd EN work/comparator_if 1603910096
+FL E:/Proj/intro1/coun0-9and9-0.vhd 2020/11/10.19:38:38 P.20131013
+EN work/count09and90 1605025410 FL E:/Proj/intro1/coun0-9and9-0.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/count09and90/Behavioral 1605025411 \
+      FL E:/Proj/intro1/coun0-9and9-0.vhd EN work/count09and90 1605025410
+FL E:/Proj/intro1/D-FF.vhd 2020/11/16.23:41:16 P.20131013
+EN work/DFF 1605567945 FL E:/Proj/intro1/D-FF.vhd PB ieee/std_logic_1164 1381692176
+AR work/DFF/Behavioral 1605567946 \
+      FL E:/Proj/intro1/D-FF.vhd EN work/DFF 1605567945
+FL E:/Proj/intro1/dec2to4bymulti4to1.vhd 2020/10/12.22:46:35 P.20131013
+EN work/dec2to4bymulti4to1 1602530405 FL E:/Proj/intro1/dec2to4bymulti4to1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dec2to4bymulti4to1/Behavioral 1602530406 \
+      FL E:/Proj/intro1/dec2to4bymulti4to1.vhd EN work/dec2to4bymulti4to1 1602530405 \
+      CP multi_plexer
+FL E:/Proj/intro1/dec4to16.vhd 2020/10/06.14:57:34 P.20131013
+EN work/dec4to16 1602518526 FL E:/Proj/intro1/dec4to16.vhd PB ieee/std_logic_1164 1381692176
+AR work/dec4to16/Behavioral 1602518527 \
+      FL E:/Proj/intro1/dec4to16.vhd EN work/dec4to16 1602518526
+FL E:/Proj/intro1/dec4to2.vhd 2020/10/06.14:15:31 P.20131013
+EN work/dec4to2 1601981253 FL E:/Proj/intro1/dec4to2.vhd PB ieee/std_logic_1164 1381692176
+AR work/dec4to2/Behavioral 1601981254 \
+      FL E:/Proj/intro1/dec4to2.vhd EN work/dec4to2 1601981253
+FL E:/Proj/intro1/detect1100.vhd 2020/12/18.19:28:46 P.20131013
+EN work/detect1100 1608348869 FL E:/Proj/intro1/detect1100.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/detect1100/Behavioral 1608348870 \
+      FL E:/Proj/intro1/detect1100.vhd EN work/detect1100 1608348869 CP Dflipflop
+FL E:/Proj/intro1/Dflipflop.vhd 2020/12/18.19:21:33 P.20131013
+EN work/Dflipflop 1608348867 FL E:/Proj/intro1/Dflipflop.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Dflipflop/Behavioral 1608348868 \
+      FL E:/Proj/intro1/Dflipflop.vhd EN work/Dflipflop 1608348867
+FL E:/Proj/intro1/FA_DELAY.vhd 2020/10/19.21:42:45 P.20131013
+EN work/FA_DELAY 1605557605 FL E:/Proj/intro1/FA_DELAY.vhd PB ieee/std_logic_1164 1381692176
+AR work/FA_DELAY/Behavioral 1605557606 \
+      FL E:/Proj/intro1/FA_DELAY.vhd EN work/FA_DELAY 1605557605 CP HA_DELAY \
+      CP OR_DELAY2ns
+FL E:/Proj/intro1/FOURADDERCLA.vhd 2020/10/20.00:15:44 P.20131013
+EN work/FOURADDERCLA 1605557607 FL E:/Proj/intro1/FOURADDERCLA.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FOURADDERCLA/Behavioral 1605557608 \
+      FL E:/Proj/intro1/FOURADDERCLA.vhd EN work/FOURADDERCLA 1605557607 \
+      CP XOR_DELAY CP FA_DELAY
+FL E:/Proj/intro1/four_add_sub.vhd 2020/10/05.23:45:46 P.20131013
+EN work/four_add_sub 1601929099 FL E:/Proj/intro1/four_add_sub.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/four_add_sub/Behavioral 1601929100 \
+      FL E:/Proj/intro1/four_add_sub.vhd EN work/four_add_sub 1601929099 \
+      CP four_bit_adder
+FL E:/Proj/intro1/four_bit_adder.vhd 2020/10/03.21:04:26 P.20131013
+EN work/four_bit_adder 1601929097 FL E:/Proj/intro1/four_bit_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/four_bit_adder/Behavioral 1601929098 \
+      FL E:/Proj/intro1/four_bit_adder.vhd EN work/four_bit_adder 1601929097 \
+      CP fulladder
+FL E:/Proj/intro1/FOUR_BIT_ADDER_DELAY.vhd 2020/10/19.22:20:16 P.20131013
+EN work/FOUR_BIT_ADDER_DELAY 1603133990 \
+      FL E:/Proj/intro1/FOUR_BIT_ADDER_DELAY.vhd PB ieee/std_logic_1164 1381692176
+AR work/FOUR_BIT_ADDER_DELAY/Behavioral 1603133991 \
+      FL E:/Proj/intro1/FOUR_BIT_ADDER_DELAY.vhd EN work/FOUR_BIT_ADDER_DELAY 1603133990 \
+      CP FA_DELAY
+FL E:/Proj/intro1/fulladder.vhd 2020/10/03.14:52:42 P.20131013
+EN work/fulladder 1601929095 FL E:/Proj/intro1/fulladder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/fulladder/Behavioral 1601929096 \
+      FL E:/Proj/intro1/fulladder.vhd EN work/fulladder 1601929095 CP halfadder
+FL E:/Proj/intro1/halfadder.vhd 2020/09/29.14:11:21 P.20131013
+EN work/halfadder 1601758933 FL E:/Proj/intro1/halfadder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/halfadder/Behavioral 1601758934 \
+      FL E:/Proj/intro1/halfadder.vhd EN work/halfadder 1601758933
+FL E:/Proj/intro1/HA_DELAY.vhd 2020/10/19.21:24:45 P.20131013
+EN work/HA_DELAY 1605557603 FL E:/Proj/intro1/HA_DELAY.vhd PB ieee/std_logic_1164 1381692176
+AR work/HA_DELAY/Behavioral 1605557604 \
+      FL E:/Proj/intro1/HA_DELAY.vhd EN work/HA_DELAY 1605557603 CP XOR_DELAY \
+      CP AND_DELAY1ns
+FL E:/Proj/intro1/multi16to1by2to1.vhd 2020/10/12.21:05:36 P.20131013
+EN work/multi16to1by2to1 1602524768 FL E:/Proj/intro1/multi16to1by2to1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/multi16to1by2to1/Behavioral 1602524769 \
+      FL E:/Proj/intro1/multi16to1by2to1.vhd EN work/multi16to1by2to1 1602524768 \
+      CP multi2to1
+FL E:/Proj/intro1/multi2to1.vhd 2020/10/12.20:27:54 P.20131013
+EN work/multi2to1 1602524766 FL E:/Proj/intro1/multi2to1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/multi2to1/Behavioral 1602524767 \
+      FL E:/Proj/intro1/multi2to1.vhd EN work/multi2to1 1602524766
+FL E:/Proj/intro1/multi4to1by2to1byselectwhen.vhd 2020/10/29.00:08:26 P.20131013
+EN work/multi4to1by2to1byselectwhen 1603917533 \
+      FL E:/Proj/intro1/multi4to1by2to1byselectwhen.vhd PB ieee/std_logic_1164 1381692176
+AR work/multi4to1by2to1byselectwhen/Behavioral 1603917534 \
+      FL E:/Proj/intro1/multi4to1by2to1byselectwhen.vhd \
+      EN work/multi4to1by2to1byselectwhen 1603917533
+FL E:/Proj/intro1/multi_plexer.vhd 2020/10/06.14:01:47 P.20131013
+EN work/multi_plexer 1602530403 FL E:/Proj/intro1/multi_plexer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/multi_plexer/Behavioral 1602530404 \
+      FL E:/Proj/intro1/multi_plexer.vhd EN work/multi_plexer 1602530403
+FL E:/Proj/intro1/NOT_DELAY3ns.vhd 2020/10/19.20:30:41 P.20131013
+EN work/NOT_DELAY3ns 1605557595 FL E:/Proj/intro1/NOT_DELAY3ns.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/NOT_DELAY3ns/Behavioral 1605557596 \
+      FL E:/Proj/intro1/NOT_DELAY3ns.vhd EN work/NOT_DELAY3ns 1605557595
+FL E:/Proj/intro1/OR_DELAY2ns.vhd 2020/10/19.20:25:11 P.20131013
+EN work/OR_DELAY2ns 1605557599 FL E:/Proj/intro1/OR_DELAY2ns.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/OR_DELAY2ns/Behavioral 1605557600 \
+      FL E:/Proj/intro1/OR_DELAY2ns.vhd EN work/OR_DELAY2ns 1605557599
+FL E:/Proj/intro1/priorityendcoder4to2.vhd 2020/10/28.22:37:41 P.20131013
+EN work/priorityendcoder4to2 1603912083 \
+      FL E:/Proj/intro1/priorityendcoder4to2.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/priorityendcoder4to2/Behavioral 1603912084 \
+      FL E:/Proj/intro1/priorityendcoder4to2.vhd EN work/priorityendcoder4to2 1603912083
+FL E:/Proj/intro1/RAM.vhd 2020/12/19.02:20:25 P.20131013
+EN work/RAM 1608332137 FL E:/Proj/intro1/RAM.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/RAM/Behavioral 1608332138 \
+      FL E:/Proj/intro1/RAM.vhd EN work/RAM 1608332137
+FL E:/Proj/intro1/seg7.vhd 2020/10/12.23:59:05 P.20131013
+EN work/seg7 1602535042 FL E:/Proj/intro1/seg7.vhd PB ieee/std_logic_1164 1381692176
+AR work/seg7/Behavioral 1602535043 \
+      FL E:/Proj/intro1/seg7.vhd EN work/seg7 1602535042
+FL E:/Proj/intro1/seg7case.vhd 2020/10/28.20:42:37 P.20131013
+EN work/seg7case 1603905194 FL E:/Proj/intro1/seg7case.vhd PB ieee/std_logic_1164 1381692176
+AR work/seg7case/Behavioral 1603905195 \
+      FL E:/Proj/intro1/seg7case.vhd EN work/seg7case 1603905194
+FL E:/Proj/intro1/seqdetect1100.vhd 2020/12/19.06:24:42 P.20131013
+EN work/seqdetect1100 1608348573 FL E:/Proj/intro1/seqdetect1100.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/seqdetect1100/Behavioral 1608348574 \
+      FL E:/Proj/intro1/seqdetect1100.vhd EN work/seqdetect1100 1608348573
+FL E:/Proj/intro1/test1.vhd 2020/11/09.03:20:45 P.20131013
+EN work/test1 1605015084 FL E:/Proj/intro1/test1.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/test1/Behavioral 1605015085 \
+      FL E:/Proj/intro1/test1.vhd EN work/test1 1605015084
+FL E:/Proj/intro1/upcounterdff.vhd 2020/11/17.02:27:41 P.20131013
+EN work/upcounterdff 1605567479 FL E:/Proj/intro1/upcounterdff.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/upcounterdff/Behavioral 1605567480 \
+      FL E:/Proj/intro1/upcounterdff.vhd EN work/upcounterdff 1605567479 CP DFF
+FL E:/Proj/intro1/XOR_DELAY.vhd 2020/10/19.20:57:17 P.20131013
+EN work/XOR_DELAY 1605557601 FL E:/Proj/intro1/XOR_DELAY.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/XOR_DELAY/Behavioral 1605557602 \
+      FL E:/Proj/intro1/XOR_DELAY.vhd EN work/XOR_DELAY 1605557601 CP NOT_DELAY3ns \
+      CP AND_DELAY1ns CP OR_DELAY2ns

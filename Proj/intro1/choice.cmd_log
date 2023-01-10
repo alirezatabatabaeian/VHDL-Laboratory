@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/choice.xst" -ofn "E:/Proj/intro1/choice.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 choice.ngc choice.ngd  

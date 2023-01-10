@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/seqdetect1100.xst" -ofn "E:/Proj/intro1/seqdetect1100.syr" 
+netgen -intstyle ise -ar Structure -tm seqdetect1100 -w -dir netgen/synthesis -ofmt vhdl -sim seqdetect1100.ngc seqdetect1100_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/seqdetect1100.xst" -ofn "E:/Proj/intro1/seqdetect1100.syr" 
+netgen -intstyle ise -ar Structure -tm seqdetect1100 -w -dir netgen/synthesis -ofmt vhdl -sim seqdetect1100.ngc seqdetect1100_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/seqdetect1100.xst" -ofn "E:/Proj/intro1/seqdetect1100.syr" 
+netgen -intstyle ise -ar Structure -tm seqdetect1100 -w -dir netgen/synthesis -ofmt vhdl -sim seqdetect1100.ngc seqdetect1100_synthesis.vhd 

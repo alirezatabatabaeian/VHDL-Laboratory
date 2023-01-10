@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/RAM.xst" -ofn "E:/Proj/intro1/RAM.syr" 
+netgen -intstyle ise -ar Structure -tm RAM -w -dir netgen/synthesis -ofmt vhdl -sim RAM.ngc RAM_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/RAM.xst" -ofn "E:/Proj/intro1/RAM.syr" 
+netgen -intstyle ise -ar Structure -tm RAM -w -dir netgen/synthesis -ofmt vhdl -sim RAM.ngc RAM_synthesis.vhd 

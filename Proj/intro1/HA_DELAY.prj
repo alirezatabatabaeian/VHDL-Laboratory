@@ -1,0 +1,5 @@
+vhdl work "OR_DELAY2ns.vhd"
+vhdl work "NOT_DELAY3ns.vhd"
+vhdl work "AND_DELAY1ns.vhd"
+vhdl work "XOR_DELAY.vhd"
+vhdl work "HA_DELAY.vhd"

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/Proj/intro1/FOURADDERCLA.xst" -ofn "E:/Proj/intro1/FOURADDERCLA.syr" 
+netgen -intstyle ise -ar Structure -tm FOURADDERCLA -w -dir netgen/synthesis -ofmt vhdl -sim FOURADDERCLA.ngc FOURADDERCLA_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/FOURADDERCLA.xst" -ofn "E:/Proj/intro1/FOURADDERCLA.syr" 
+netgen -intstyle ise -ar Structure -tm FOURADDERCLA -w -dir netgen/synthesis -ofmt vhdl -sim FOURADDERCLA.ngc FOURADDERCLA_synthesis.vhd 
+xst -intstyle ise -ifn "E:/Proj/intro1/FOURADDERCLA.xst" -ofn "E:/Proj/intro1/FOURADDERCLA.syr" 
+netgen -intstyle ise -ar Structure -tm FOURADDERCLA -w -dir netgen/synthesis -ofmt vhdl -sim FOURADDERCLA.ngc FOURADDERCLA_synthesis.vhd 
